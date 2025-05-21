@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Backgrounds -->
+<color name="colorBackgroundDark">#111111</color>
+<color name="colorCardDark">#1C1C1E</color>
+
+<!-- Primary Text -->
+<color name="colorWhite">#FFFFFF</color>
+
+<!-- Secondary Text -->
+<color name="colorGrayLight">#AAAAAA</color>
+<color name="colorGrayMedium">#777777</color>
+<color name="transparent">#00000000</color>
+<!-- Accent / Action Colors -->
+<color name="colorGreenAccent">#00FF6A</color> <!-- or use #00C853 for material green -->
+<color name="colorBorderGray">#333333</color>
+</resources>

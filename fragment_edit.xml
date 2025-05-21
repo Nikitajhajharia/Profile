@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="24dp"
+android:background="@color/colorBackgroundDark">
+
+    <ImageView
+        android:id="@+id/edit_profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circle_background"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_profile_placeholder"
+        android:layout_marginStart="100dp"
+        android:clipToOutline="true"
+        android:outlineProvider="background"/>
+
+    <Button
+        android:id="@+id/photoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="100dp"
+        android:text="@string/change_photo"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+         android:id="@+id/edit_name"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="@string/enter_your_name"
+         android:layout_below="@id/edit_profile_image"
+         android:layout_marginTop="50dp"
+         android:padding="12dp"
+         android:background="@drawable/rounded_edittext"
+         android:textSize="18sp" />
+    <EditText
+        android:id="@+id/editSinceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/since"
+        android:text=""
+        android:layout_marginTop="320dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="textCapSentences"/>
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textStyle="bold"
+        android:layout_below="@id/edit_name"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
